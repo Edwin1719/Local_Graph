@@ -6,6 +6,7 @@ Este proyecto presenta un asistente de IA conversacional avanzado construido con
 
 La arquitectura de esta aplicación está diseñada para ser modular y extensible. A continuación se muestra un diagrama del flujo de datos y componentes principales:
 
+```mermaid
 flowchart TD
     User((🧑‍💻)) --> UI((🎨 UI<br/>Streamlit))
 
