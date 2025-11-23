@@ -26,6 +26,7 @@ flowchart TD
     Tools --> LG
 
     LG --> UI
+```
 
 A continuación, se detallan los componentes:
 
