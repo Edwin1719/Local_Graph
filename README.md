@@ -7,28 +7,24 @@ Este proyecto presenta un asistente de IA conversacional avanzado construido con
 La arquitectura de esta aplicación está diseñada para ser modular y extensible. A continuación se muestra un diagrama del flujo de datos y componentes principales:
 
 flowchart TD
-    A[🖥️ Usuario] --> B[🎨 Interfaz Streamlit]
+    User((🧑‍💻)) --> UI((🎨 UI<br/>Streamlit))
 
-    B --> C[🔗 LangGraph<br/>Orquestador de Agentes]
+    UI --> LG([🔗 LangGraph<br/>Agente Principal])
 
-    C --> D[💬 LLM Local<br/>GPT-OSS_20B (Ollama)]
+    LG --> LLM((💬 GPT-OSS_20B<br/>Ollama))
 
-    C --> E[🧰 Herramientas Externas]
-    E --> E1[🌎 Google Maps]
-    E --> E2[🔍 Tavily Search]
-    E --> E3[⚡ Groq API]
-    E --> E4[🗄️ ChromaDB]
-    E --> E5[📦 Funciones Síncronas]
+    LG --> Tools((🧰 Tools))
 
-    D --> C
-    E --> C
+    Tools --> GM((🌍 Maps))
+    Tools --> TV((🔎 Tavily))
+    Tools --> GQ((⚡ Groq))
+    Tools --> CH((🗄️ Chroma))
+    Tools --> FN((📦 Funciones))
 
-    C --> B
+    LLM --> LG
+    Tools --> LG
 
-    style A fill:#D6EAF8
-    style B fill:#E8DAEF
-    style H fill:#D5F5E3
-```
+    LG --> UI
 
 A continuación, se detallan los componentes:
 
