@@ -6,29 +6,24 @@ Este proyecto presenta un asistente de IA conversacional avanzado construido con
 
 La arquitectura de esta aplicación está diseñada para ser modular y extensible. A continuación se muestra un diagrama del flujo de datos y componentes principales:
 
-```mermaid
-graph TD
-    A[👨‍💻 Usuario] --> B[🌐 Interfaz Web Streamlit];
-    B --> C{🤖 Agente LangGraph};
+flowchart TD
+    A[🖥️ Usuario] --> B[🎨 Interfaz Streamlit]
 
-    subgraph "Flujo del Agente"
-        C --> D{1. Router (Decide la ruta)};
-        D --> |Necesita datos externos| E[2. Nodo de Herramienta];
-        D --> |No necesita datos| G[3. Nodo de Generación];
-        E --> F1[🛠️ Tavily Search];
-        E --> F2[📍 Google Maps];
-        F1 --> G;
-        F2 --> G;
-    end
+    B --> C[🔗 LangGraph<br/>Orquestador de Agentes]
 
-    subgraph "Servicios Externos y Locales"
-        G --> H((🧠 Ollama LLM));
-        H --> G;
-        F1 --> I([API Tavily]);
-        F2 --> J([API Google Maps]);
-    end
+    C --> D[💬 LLM Local<br/>GPT-OSS_20B (Ollama)]
 
-    G --> B;
+    C --> E[🧰 Herramientas Externas]
+    E --> E1[🌎 Google Maps]
+    E --> E2[🔍 Tavily Search]
+    E --> E3[⚡ Groq API]
+    E --> E4[🗄️ ChromaDB]
+    E --> E5[📦 Funciones Síncronas]
+
+    D --> C
+    E --> C
+
+    C --> B
 
     style A fill:#D6EAF8
     style B fill:#E8DAEF
