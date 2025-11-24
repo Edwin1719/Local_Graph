@@ -130,7 +130,7 @@ A continuación, algunas capturas de pantalla de la aplicación en acción:
 ![Captura de Pantalla 2 - Ejemplo de Google Maps (Lugares)](https://github.com/Edwin1719/Local_Graph/blob/main/IMG/Imagen_2.png)
 *Encontrando lugares de interés con la herramienta de Google Maps.*
 
-![Captura de Pantalla 3 - Ejemplo de Google Maps (Rutas)](https://via.placeholder.com/800x450?text=Captura+de+Pantalla+3:+Google+Maps+Rutas)
+![Captura de Pantalla 3 - Ejemplo de Google Maps (Rutas)](https://github.com/Edwin1719/Local_Graph/blob/main/IMG/Imagen_3.png)
 *Generando indicaciones y tiempos de viaje con Google Maps.*
 
 *   **Asistente Personal:**
