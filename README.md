@@ -124,7 +124,7 @@ Un asistente como este, que combina un LLM local con herramientas externas, tien
 
 A continuación, algunas capturas de pantalla de la aplicación en acción:
 
-![Captura de Pantalla 1 - Ejemplo de Búsqueda Web](https://via.placeholder.com/800x450?text=Captura+de+Pantalla+1:+Busqueda+Web)
+![Captura de Pantalla 1 - Ejemplo de Búsqueda Web](https://github.com/Edwin1719/Local_Graph/blob/main/IMG/Imagen_1.png)
 *El asistente respondiendo a una pregunta usando la búsqueda web de Tavily.*
 
 ![Captura de Pantalla 2 - Ejemplo de Google Maps (Lugares)](https://via.placeholder.com/800x450?text=Captura+de+Pantalla+2:+Google+Maps+Lugares)
