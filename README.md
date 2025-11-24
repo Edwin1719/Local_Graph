@@ -127,7 +127,7 @@ A continuación, algunas capturas de pantalla de la aplicación en acción:
 ![Captura de Pantalla 1 - Ejemplo de Búsqueda Web](https://github.com/Edwin1719/Local_Graph/blob/main/IMG/Imagen_1.png)
 *El asistente respondiendo a una pregunta usando la búsqueda web de Tavily.*
 
-![Captura de Pantalla 2 - Ejemplo de Google Maps (Lugares)](https://via.placeholder.com/800x450?text=Captura+de+Pantalla+2:+Google+Maps+Lugares)
+![Captura de Pantalla 2 - Ejemplo de Google Maps (Lugares)](https://github.com/Edwin1719/Local_Graph/blob/main/IMG/Imagen_2.png)
 *Encontrando lugares de interés con la herramienta de Google Maps.*
 
 ![Captura de Pantalla 3 - Ejemplo de Google Maps (Rutas)](https://via.placeholder.com/800x450?text=Captura+de+Pantalla+3:+Google+Maps+Rutas)
